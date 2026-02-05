@@ -1,0 +1,7 @@
+let num = Math.random > 0;
+
+function repeatStr(num, String) {
+  return String.repeat(num);
+}
+
+repeatStr(5, "test");
