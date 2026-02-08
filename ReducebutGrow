@@ -1,0 +1,11 @@
+function grow(arr) {
+  let answer = 1;
+  for (let i = 0; i < arr.length; i++) {
+    answer *= arr[i];
+  }
+
+  return answer;
+}
+
+const numbers = [1, 2, 3, 4];
+console.log(grow(numbers));
